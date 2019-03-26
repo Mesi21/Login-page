@@ -88,6 +88,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding: none;
 }
 
 #main-submit{
@@ -103,10 +104,17 @@ a {
 	align-items: center;
 	padding: 0px 10px 0px 18px;
 	font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
 }
 
 .grey{
 	background-color: #ECEEF1;
+	font-size: 10px;
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 0px;
 }
 
 .white{
@@ -114,9 +122,49 @@ a {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding: none;
+	margin: none;
 }
 
 #form{
-	width: 90%;
+	width: 320px;
 	text-align: center;
+	border-radius: 3px;
+	
+}
+#main-form h3 {
+	line-height: 1.2;
+	padding: none;
+	margin: none;
+	text-align: center;
+	font-size: ;
+	text-decoration: none;
+	color: #4c4c4c;
+}
+#main-form p {
+	text-align: center;
+
+}
+#main-form p a {
+	font-size: small;
+}
+.white form input {
+	width: 95%;
+	
+}
+#italic {
+	font-style: italic;
+	font-size: 12px;
+}
+#form label{
+	display: flex;
+	justify-content: flex-start;
+}
+#form input{
+	padding: none;
+}
+#small {
+	font-size: 10px;
+	display: flex;
+	justify-content: flex-start;
 }
