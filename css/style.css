@@ -1,5 +1,6 @@
 body{
 	background-color: #ECEEF1;
+	font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .header {
 	display: flex;
@@ -28,11 +29,9 @@ body{
 	font-size: 13.5;
 	align-items: center;
 	padding: 0px 10px 0px 18px;
-	font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #account-options {
 	font-size: 12px;
-	font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 0.5;
 	padding: 0px 7px 0px 0px;
 
@@ -65,30 +64,28 @@ a {
 	flex-direction: column;
 	align-items: center;
 }
-#icons {
+.icons {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
-#icons p{
+.icons p{
 	padding-right: 10px;
 	padding-left: 5px;
-	font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #505050;
 }
 
-#main-form{
+.form{
 	width: 35%;
 	margin: auto;
 	background-color: #fff;
 	border: 1px solid #c7c7c7;
-	font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #505050;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: none;
+	padding: 0px;
 }
 
 #main-submit{
@@ -103,7 +100,6 @@ a {
 	font-size: 13.5;
 	align-items: center;
 	padding: 0px 10px 0px 18px;
-	font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	justify-content: center;
 	margin-top: 20px;
 }
@@ -160,6 +156,7 @@ a {
 #italic {
 	font-style: italic;
 	font-size: 12px;
+	text-align: center;
 }
 
 #small {
@@ -173,17 +170,15 @@ a {
 }
 
 .footer{
+	width: 100%;
+	height: 40px;
+	bottom: 0;
 	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	color: #505050;
+	line-height: 0.2;
 }
 
-#footer1{
-	display: inline-flex;
-	justify-content: center;
-	text-align: center;
-}
-
-#footer1 p{
-	padding: 0px 10px 0px 10px;
-}
 
 
