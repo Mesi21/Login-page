@@ -9,7 +9,6 @@ body{
 }
 #account-options {
 	display: block;
-
 }
 .header button img{
 	width: 20px;
@@ -34,7 +33,6 @@ body{
 	font-size: 12px;
 	line-height: 0.5;
 	padding: 0px 7px 0px 0px;
-
 }
 #para {
 	color: #505050;
@@ -97,7 +95,7 @@ a {
 	height: 34px;
 	width: 96.5%;
 	font-weight: 400;
-	font-size: 13.5px;
+	font-size: 13.5;
 	align-items: center;
 	padding: 0px 10px 0px 18px;
 	justify-content: center;
@@ -119,8 +117,8 @@ a {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 0px;
-	margin: 0px;
+	padding: none;
+	margin: none;
 }
 
 #form{
@@ -134,16 +132,18 @@ a {
 	padding: none;
 	margin: none;
 	text-align: center;
+	font-size: ;
 	text-decoration: none;
 	color: #4c4c4c;
 }
 #main-form p {
 	text-align: center;
+
 }
 #main-form p a {
 	font-size: small;
-	padding-top: 0px;
-	margin-top: 0px;
+	padding-top: none;
+	margin-top: none;
 }
 .white form input {
 	display: flex;
@@ -163,8 +163,8 @@ a {
 	justify-content: flex-start;
 }
 #phone{
-	padding: 0px;
-	margin: 0px;
+	padding: none;
+	margin: none;
 }
 
 .footer{
@@ -176,6 +176,11 @@ a {
 	margin: 0px;
 	color: #505050;
 	line-height: 0.2;
+}
+#lock-submit {
+	width: 20px;
+	height: 20px;
+	padding-right: 10px;
 }
 
 
