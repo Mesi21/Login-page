@@ -41,7 +41,7 @@ a {
 	color: #0077C5;
 	text-decoration: none;
 }
-#intuit{
+.form-title img{
 	width: 140px;
 	height: 70px;
 }
@@ -95,7 +95,7 @@ a {
 	height: 34px;
 	width: 96.5%;
 	font-weight: 400;
-	font-size: 13.5;
+	font-size: 13.5px;
 	align-items: center;
 	padding: 0px 10px 0px 18px;
 	justify-content: center;
@@ -117,8 +117,8 @@ a {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: none;
-	margin: none;
+	padding: 0px;
+	margin: 0px;
 }
 
 #form{
@@ -129,10 +129,9 @@ a {
 }
 #main-form h3 {
 	line-height: 1.2;
-	padding: none;
-	margin: none;
+	padding: 0px;
+	margin: 0px;
 	text-align: center;
-	font-size: ;
 	text-decoration: none;
 	color: #4c4c4c;
 }
@@ -142,13 +141,13 @@ a {
 }
 #main-form p a {
 	font-size: small;
-	padding-top: none;
-	margin-top: none;
+	padding-top: 0px;
+	margin-top: 0px;
 }
 .white form input {
 	display: flex;
 	width: 95%;
-	padding: none;
+	padding: 0px;
 	justify-content: center;
 }
 #italic {
@@ -163,8 +162,8 @@ a {
 	justify-content: flex-start;
 }
 #phone{
-	padding: none;
-	margin: none;
+	padding: 0px;
+	margin: 0px;
 }
 
 .footer{
